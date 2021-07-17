@@ -1,6 +1,7 @@
 import React from 'react';
 import project from '../../project.json';
 import Projects from '../../components/Project/Project.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Wrapper(props) {
     return <div className="wrapper">{props.children}</div>

@@ -16,7 +16,7 @@ const Resume = () => {
                         <a href="https://www.linkedin.com/in/danny-cheever/" class="link">LinkedIn</a>
                     </p>
 
-                    <h2 className="title">Proficincies</h2>
+                    <h2 className="title">Proficiencies</h2>
                     <p class="mt-5">
                         tech stuff
                     </p>

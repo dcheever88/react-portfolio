@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router , Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router , Route, Redirect, Switch } from 'react-router-dom';
 import Navigation from '../../components/Navigation/Navigation.js';
 import AboutMe from '../../components/AboutMe/AboutMe.js';
 import Portfolio from '../../components/Portfolio/Portfolio.js';
@@ -16,6 +16,7 @@ const Header = () => {
             <p>test test test</p>
 
             <div className="headers">
+                <Route exact path="/" render={() => <Redirect to="/aboutme" />} />
                 <Route path="/aboutme" component={AboutMe} />
                 <Route path="/portfolio" component={Portfolio} />
                 <Route path="/resume" component={Resume} />
