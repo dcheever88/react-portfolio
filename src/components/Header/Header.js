@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Route , Router, Switch } from 'react-router-dom';
+import { BrowserRouter as Router , Route, Switch } from 'react-router-dom';
 import Navigation from '../../components/Navigation/Navigation.js';
 import AboutMe from '../../components/AboutMe/AboutMe.js';
 import Portfolio from '../../components/Portfolio/Portfolio.js';
@@ -8,9 +8,10 @@ import ContactMe from '../../components/ContactMe/ContactMe.js';
 
 const Header = () => {
     return(
+        <Router>
         <div>
             <header>
-                <Navigation />
+                    <Navigation />
             </header>
             <p>test test test</p>
 
@@ -21,7 +22,8 @@ const Header = () => {
                 <Route path="/contactme" component={ContactMe} />
             </div>
         </div>
-    )
+        </Router>
+    );
 }
 
 export default Header;
