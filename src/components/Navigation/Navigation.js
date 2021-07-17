@@ -24,7 +24,7 @@ const Navigation = () => {
                     </li>
                     <li class="nav-item">
                         <NavLink to="/contactme">
-                            <div class="nav-font">Contact</div>
+                            <div class="nav-font">Contact Me</div>
                         </NavLink>
                     </li>
                     <li class="nav-item">

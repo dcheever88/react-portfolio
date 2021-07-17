@@ -63,6 +63,7 @@ function ContactMe() {
     // );
 
     // simple contact info for this project
+    return (
     <section className="container">
         <h1 className="title">Contact Me!</h1>
 
@@ -73,6 +74,7 @@ function ContactMe() {
             Phone Number: 715.292.3757
         </div>
     </section>
+    );
 }
 
 export default ContactMe;

@@ -1,4 +1,5 @@
 import React from 'react';
+import project from '../../project.json';
 import Projects from '../../components/Project/Project.js';
 
 function Wrapper(props) {
@@ -13,7 +14,7 @@ const Portfolio = () => {
             </div>
 
             <Wrapper id="card-data">
-                {Portfolio.map((project) => (
+                {project.map((project) => (
                     <Projects key={project.id} image={project.image} title={project.title} deployed={project.deployed} github={project.github} />
                 ))}
             </Wrapper>
