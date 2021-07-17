@@ -1,9 +1,12 @@
 import React from 'react';
+import Navigation from "../../components/Navigation/Navigation.js";
 
 const Header = () => {
     return(
         <div>
-            <h1>Header Test</h1>
+            <header>
+                <Navigation />
+            </header>
             <p>test test test</p>
         </div>
     )
