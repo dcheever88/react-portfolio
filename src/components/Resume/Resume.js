@@ -7,7 +7,7 @@ const Resume = () => {
 
             <div>
                 <div class="mt-5">
-                    <p >This what i can do</p>
+                    <p >Full-Stack Web Developer</p>
 
                     <p class="mt-5">
                         <a href="https://github.com/dcheever88" class="link">GitHub</a>
@@ -18,7 +18,8 @@ const Resume = () => {
 
                     <h2 className="title">Proficiencies</h2>
                     <p class="mt-5">
-                        tech stuff
+                        HTML, CSS (Bootstrap, HandleBars, Bulma), Javascript, React.js, jQuery, <br />
+                        APIs, Node.js, Express.js, IndexedDB, SQL, NoSQL, Sequelize, Mongoose, MongoDB
                     </p>
                 </div>
             </div>

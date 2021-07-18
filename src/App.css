@@ -140,7 +140,7 @@ li {
   font-style: bold;
 }
 
-.top-title {
+.title {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-top: 15px;
   font-style: bold;
@@ -271,7 +271,7 @@ textarea {
   background-color: white;
 }
 
-.card .content {
+.card .projectt-content {
   font-size: 16px;
   background-color: white;
   color: var(--blue);
@@ -287,7 +287,7 @@ textarea {
   background-color: white;
 }
 
-.project-icons-container {
+.project-container {
   background-color: white;
 }
 
@@ -366,7 +366,7 @@ a {
   color: var(--secondary);
 }
 
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -403,4 +403,4 @@ a {
   to {
     transform: rotate(360deg);
   }
-}
+} */
