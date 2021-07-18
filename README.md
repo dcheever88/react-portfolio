@@ -14,4 +14,5 @@ SO THAT I can assess whether they're a good candidate for an open position
 Application is deployed at https://dcheever88.github.io/react-portfolio/
 
 ## App Image
-Screen Shot 2021-07-18 at 5 41 03 PM](https://user-images.githubusercontent.com/78058224/126084305-5680d683-3116-4cba-8411-389e805f4e53.png)
+Screen Shot 2021-07-18 at 5.41.03 PM![Screen Shot 2021-07-18 at 5 41 03 PM](https://user-images.githubusercontent.com/78058224/126084325-4b04a686-f727-4c2e-af54-33c0a813f74f.png)
+
