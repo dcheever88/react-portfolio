@@ -13,7 +13,7 @@ const Header = () => {
             <header>
                     <Navigation />
             </header>
-            <p>test test test</p>
+          
 
             <div className="headers">
                 <Route exact path="/" render={() => <Redirect to="/aboutme" />} />

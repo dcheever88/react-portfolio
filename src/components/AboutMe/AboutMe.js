@@ -5,8 +5,10 @@ const AboutMe = () => {
         <section classname="container">
             <h1 class="about">Danny Cheever</h1>
             <div>
+
+                <img class="mb-5" id="avatar" src="https://avatars.githubusercontent.com/u/78058224?v=4" alt="Danny Cheever" />
                 <p>
-                    Just trying to be a programmer
+                    Growing in my programming ability. Full-stack web developer.
                 </p>
             </div>
         </section>
