@@ -12,5 +12,13 @@
         "image": "https://user-images.githubusercontent.com/78058224/125221394-cb0fab80-e28d-11eb-8e1e-2612a6e226d7.png",
         "deployed": "https://dc88budgettracker.herokuapp.com/",
         "github": "https://github.com/dcheever88/budget-tracker"
+    },
+    {
+        "id": 3,
+        "title": "Stack-Tracker",
+        "image": "../../public/stacktrackersessions.png",
+        "deployed": "https://sleepy-thicket-12395.herokuapp.com/",
+        "github": "https://github.com/stack-tracker/stack-tracker"
+
     }
 ]
