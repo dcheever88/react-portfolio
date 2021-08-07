@@ -18,7 +18,7 @@
     {
         "id": 3,
         "title": "Stack-Tracker",
-        "image": "./images/stacktrackersessions.png",
+        "image": "https://github.com/dcheever88/react-portfolio/blob/main/public/images/stacktrackersessions.png?raw=true",
         "deployed": "https://sleepy-thicket-12395.herokuapp.com/",
         "github": "https://github.com/stack-tracker/stack-tracker"
 
