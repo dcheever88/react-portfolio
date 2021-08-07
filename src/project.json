@@ -1,3 +1,5 @@
+
+
 [
     {
         "id": 1,
@@ -16,7 +18,7 @@
     {
         "id": 3,
         "title": "Stack-Tracker",
-        "image": "../../public/stacktrackersessions.png",
+        "image": "./static/public/images/stacktrackersessions.png",
         "deployed": "https://sleepy-thicket-12395.herokuapp.com/",
         "github": "https://github.com/stack-tracker/stack-tracker"
 
