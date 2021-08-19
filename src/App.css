@@ -261,13 +261,13 @@ textarea {
   height: 75%;
   overflow: hidden;
   text-align: center;
-  border-radius: 8px;
   background-color: white;
+  border-color: var(--secondary);
 }
 
 .card .img-container img {
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 15px;
   background-color: white;
 }
@@ -280,8 +280,12 @@ textarea {
 
 .card-title {
   margin-top: 12px;
+  margin-left: 0px;
+  margin-right: 0px;
   color: var(--dark);
   font-size: 30px;
+  text-align: center;
+  background-color: var(--light);
 }
 
 .project-title {

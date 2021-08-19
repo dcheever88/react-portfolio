@@ -20,6 +20,7 @@ const Portfolio = () => {
                 ))}
             </Wrapper>
         </section>
+        
     );
 }
 
