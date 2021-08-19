@@ -8,12 +8,13 @@ function Projects(props) {
                 <img alt={props.title} src={props.image}/>
             </div>
             <div className="project-content">
-                <p className="card-title">{props.title}</p>
+                <p className="card-title"><strong>{props.title}</strong></p>
                 <p class="project-container">
                     <a href={props.deployed}><img class="project-icon" src="https://img.icons8.com/cotton/64/000000/website.png" alt="Deployed Application/Website" /></a>
                     <a href={props.github}><img class="project-icon" src="https://img.icons8.com/material-rounded/64/000000/github.png" alt="Github Repository" /></a>
                 </p>
             </div>
+            <p>{props.description}</p>
         </div>
     );
 }

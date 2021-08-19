@@ -11,12 +11,12 @@ const Portfolio = () => {
     return (
         <section className="container">
             <div className="project">
-                <h2 className="title">My Portfolio</h2>
+                <h2 className="title">My Projects</h2>
             </div>
 
             <Wrapper id="card-data">
                 {project.map((project) => (
-                    <Projects key={project.id} image={project.image} title={project.title} deployed={project.deployed} github={project.github} />
+                    <Projects key={project.id} image={project.image} title={project.title} deployed={project.deployed} github={project.github} description={project.description} />
                 ))}
             </Wrapper>
         </section>
