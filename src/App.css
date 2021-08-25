@@ -307,7 +307,7 @@ textarea {
   display: flex;
   align-content: left;
   justify-content: left;
-  font-size: 5x;
+  font-size: 12px;
 }
 
 .icon {

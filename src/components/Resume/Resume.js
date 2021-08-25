@@ -7,16 +7,17 @@ const Resume = () => {
 
             <div>
                 <div class="mt-5">
-                    <p >Full-Stack Web Developer</p>
 
-                    <p class="mt-5">
-                        <a href="https://github.com/dcheever88" class="link">GitHub</a>
-                    </p>
-                    <p class="mt-5">
+                    <h3>
+                        <a href="https://github.com/dcheever88" class="link px-2">GitHub</a>
+                    
+                    
                         <a href="https://www.linkedin.com/in/danny-cheever/" class="link">LinkedIn</a>
-                    </p>
-
+                    
+                    </h3>
                     <h2 className="title">Proficiencies</h2>
+                    <h3>Full-Stack Web Developer</h3>
+
                     <p class="mt-5">
                         HTML, CSS (Bootstrap, HandleBars, Bulma), Javascript, React.js, jQuery, <br />
                         APIs, Node.js, Express.js, IndexedDB, SQL, NoSQL, Sequelize, Mongoose, MongoDB
