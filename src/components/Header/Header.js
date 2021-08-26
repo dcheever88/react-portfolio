@@ -17,6 +17,7 @@ const Header = () => {
 
             <div>
                 <Route exact path="/" render={() => <Redirect to="/aboutme" />} />
+                <Route path="/react-portfolio" render={() => <Redirect to="/aboutme" />} />
                 <Route path="/aboutme" component={AboutMe} />
                 <Route path="/portfolio" component={Portfolio} />
                 <Route path="/resume" component={Resume} />
