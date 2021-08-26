@@ -15,7 +15,7 @@ const Header = () => {
             </header>
           
 
-            <div className="headers">
+            <div>
                 <Route exact path="/" render={() => <Redirect to="/aboutme" />} />
                 <Route path="/aboutme" component={AboutMe} />
                 <Route path="/portfolio" component={Portfolio} />
