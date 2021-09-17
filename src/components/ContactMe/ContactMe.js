@@ -43,7 +43,7 @@ function ContactMe() {
         <form id="contact-form" onSubmit={handleSubmit}>
             <div>
                 <label htmlFor="name">Name:</label>
-                <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
             </div>
             <div>
                 <label htmlFor="email">Email Address:</label>
