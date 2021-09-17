@@ -23,13 +23,13 @@ const Navigation = () => {
                         </NavLink>
                     </li>
                     <li class="nav-item">
-                        <NavLink to="/contactme">
-                            <div class="nav-font">Contact Me</div>
+                        <NavLink to="/resume">
+                            <div class="nav-font">Resume</div>
                         </NavLink>
                     </li>
                     <li class="nav-item">
-                        <NavLink to="/resume">
-                            <div class="nav-font">Resume</div>
+                        <NavLink to="/contactme">
+                            <div class="nav-font">Contact Me</div>
                         </NavLink>
                     </li>
                 </ul>
