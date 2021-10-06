@@ -38,7 +38,7 @@ function ContactMe() {
     // }
 
     return (
-    <section className="container">
+    <div className="container">
 
         {/* <h1 className="title">Contact Me!</h1>
         <form id="contact-form" onSubmit={handleSubmit}>
@@ -61,15 +61,15 @@ function ContactMe() {
             )}
             <button type="submit">Submit</button>
         </form> */}
-        <h1 className="title">Contact Me!</h1>
+        <h2 className="title">Contact Me!</h2>
 
-        <div class="mt-5">
+        <div class="d-flex justify-content-evenly mt-5">
             Email Address: cheeverdanny@gmail.com
         </div>
-        <div class="mt-5">
+        <div class="d-flex justify-content-evenly mt-5">
             Phone Number: 715.292.3757
         </div>
-    </section>
+    </div>
     );
 }
 

@@ -4,15 +4,7 @@ const Resume = () => {
     return (
         <section class="container">
              <div>
-             <h2 className="title">Proficiencies</h2>
-                    <h3 class="d-flex justify-content-evenly">Full-Stack Web Developer</h3>
-
-                    <p class="d-flex justify-content-evenly mt-5">
-                        HTML, CSS (Bootstrap, HandleBars, Bulma), Javascript, React.js, jQuery <br />
-                        
-                        APIs, Node.js, Express.js, IndexedDB, SQL, NoSQL, Sequelize, Mongoose, MongoDB
-                    </p>
-            <h2 className="title">Resume</h2>
+             <h2 className="title">Resume</h2>
                 <div class="mt-5">
 
                     <h3 class="d-flex justify-content-evenly">
@@ -23,6 +15,15 @@ const Resume = () => {
                     
                     </h3>
                 </div>
+
+             <h2 className="title">Proficiencies</h2>
+                    <h3 class="d-flex justify-content-evenly">Full-Stack Web Developer</h3>
+
+                    <p class="d-flex justify-content-evenly mt-5">
+                        HTML, CSS (Bootstrap, HandleBars, Bulma), Javascript, React.js, jQuery <br />
+                        
+                        APIs, Node.js, Express.js, IndexedDB, SQL, NoSQL, Sequelize, Mongoose, MongoDB
+                    </p>
             </div>
         </section>
     );
