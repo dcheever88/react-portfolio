@@ -8,10 +8,10 @@ const Resume = () => {
                 <div class="mt-5">
 
                     <h3 class="d-flex justify-content-evenly">
-                        <a href="https://github.com/dcheever88" class="link px-2">GitHub</a>
+                        <a href="https://github.com/dcheever88" target="_blank" rel="noopener noreference" class="link px-2">GitHub</a>
                     
                     
-                        <a href="https://www.linkedin.com/in/danny-cheever/" class="link">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/danny-cheever/" target="_blank" rel="noopener noreference" class="link">LinkedIn</a>
                     
                     </h3>
                 </div>
